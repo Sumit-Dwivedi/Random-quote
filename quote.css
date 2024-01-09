@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+:root{
+    --background-color : orange;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color);
+    font-family: 'Raleway', sans-serif;
+}
+#center{
+    display: flex;
+    width:32em;
+    height: 100vh;
+    align-items: center;
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: fit-content;
+    background-color: #fff;
+    padding: 40px;
+}
+#quote-machine{
+    color: var(--background-color);
+}
+#quote{
+    height: fit-content;
+    margin-bottom: 13px;
+    font-size: 30px;
+}
+#author{
+    float: right;
+    margin-bottom: 10px;
+}
+#btn{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+#social-btn{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social{
+    padding: 10px;
+}
+#new{
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 20px;
+}
+button{
+    background-color: var(--background-color);
+    border: none;
+    border-radius: 5px;
+}
